@@ -3,8 +3,8 @@ const app = express();
 
 
 app.get('/', (req,res) =>{
-    res.json({
-        mesg: 'hello world!!!'
+    console.log(
+        'hello CG')
     })
-})
+
 app.listen(3000)
